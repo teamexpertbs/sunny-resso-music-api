@@ -1,0 +1,10 @@
+[project]
+name = "sunny-resso-music-api"
+version = "0.1.0"
+description = "Resso 320kbps Music Search API"
+dependencies = [
+    "cryptography"
+]
+
+[tool.vercel]
+entrypoint = "api.search:handler"
